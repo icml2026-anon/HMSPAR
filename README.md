@@ -1,6 +1,6 @@
-# HMSPAR: Homologous Multimodal Fusion with Parallel Sparsity–Dynamics Awareness for Sparse Sequence Classiffcation
+# HMSPAR: Hierarchical Multi-modal Sparse Parameter-sharing Architecture for Retail analytics
 
-A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.
+A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.
 
 ## Table of Contents
 
@@ -19,35 +19,35 @@ A comprehensive multi-modal machine learning framework for time series classific
 
 ## Overview
 
-HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:
+HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:
 
-- **Time Series Data**: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends
-- **Text Embeddings**: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions
-- **Image Data**: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series
-- **Static Features**: Demographic and categorical information (optional): Demographic and categorical information (optional): Demographic and categorical information (optional): Demographic and categorical information (optional)
+- **Time Series Data**: Sequential transaction patterns, sales trends
+- **Text Embeddings**: Product descriptions, customer behavior descriptions
+- **Image Data**: ISA-GAF (Gramian Angular Field) representations of time series
+- **Static Features**: Demographic and categorical information (optional)
 
-The framework employs advanced techniques including:The framework employs advanced techniques including:The framework employs advanced techniques including:The framework employs advanced techniques including:
-- Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding
-- Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion
-- ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations
-- Sparse parameter sharing across modalities Sparse parameter sharing across modalities Sparse parameter sharing across modalities Sparse parameter sharing across modalities
+The framework employs advanced techniques including:
+- Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding
+- Progressive Layer Enhancement (PLE) for multi-modal fusion
+- ResNet-based image encoding for visual time series representations
+- Sparse parameter sharing across modalities
 
 ## Features
 
-- **Multi-modal Architecture**: Integrates time series, text, image, and static data: Integrates time series, text, image, and static data
+- **Multi-modal Architecture**: Integrates time series, text, image, and static data
 - **Advanced Time Series Encoding**: Taylor-KAN layers for temporal pattern recognition
 - **Multi-modal Fusion**: PLE-based fusion with load balancing and expert routing
-- **Comprehensive Baselines**: 12+ baseline models for comparison: 12+ baseline models for comparison: 12+ baseline models for comparison: 12+ baseline models for comparison
+- **Comprehensive Baselines**: 12+ baseline models for comparison
 - **Multiple Dataset Support**: Merchant, Retail, CDNOW, Instacart, TaFeng, Sales Weekly
 - **Flexible Task Support**: Classification, prediction, and risk assessment tasks
 
 ## Requirements
 
-See See `requirements.txt` for detailed dependencies. Key requirements: for detailed dependencies. Key requirements:
+See `requirements.txt` for detailed dependencies. Key requirements:
 
-- Python >= 3.8 Python >= 3.8
-- PyTorch >= 2.3.0 PyTorch >= 2.3.0
-- scikit-learn >= 1.2.0 scikit-learn >= 1.2.0
+- Python >= 3.8
+- PyTorch >= 2.3.0
+- scikit-learn >= 1.2.0
 - sentence-transformers >= 2.2.0
 - pyts >= 0.13.0
 
@@ -121,18 +121,6 @@ classifier = TabPFNClassifier()  # This will download the model
 ## Dataset Generation
 
 **Note**: We do not provide external datasets. Use our data generation scripts to create simulated datasets locally by running `data/data_generator.py`.
-
-### Generate Simulated Data
-
-1. **Generate base datasets:**
-```bash
-python data/data_generator.py
-```
-
-2. **Convert to multi-modal format:**
-```bash
-python data/modality_converter.py --dataset all
-```
 
 ### Real Dataset Sources
 
@@ -361,7 +349,4 @@ HMSPAR/
 ## Performance
 
 Performance varies by dataset complexity and task difficulty. Baseline models provide comparison benchmarks.
-
----
-
 
