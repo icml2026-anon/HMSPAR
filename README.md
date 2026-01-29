@@ -1,4 +1,4 @@
-# HMSPAR: Hierarchical Multi-modal Sparse Parameter-sharing Architecture for Retail analytics
+# HMSPAR: Homologous Multimodal Fusion with Parallel Sparsity–Dynamics Awareness for Sparse Sequence Classiffcation
 
 A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.
 
