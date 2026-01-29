@@ -1,6 +1,6 @@
 # HMSPAR: Homologous Multimodal Fusion with Parallel Sparsity–Dynamics Awareness for Sparse Sequence Classiffcation
 
-A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.
+A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.A comprehensive multi-modal machine learning framework for time series classification and prediction tasks in retail and e-commerce domains.
 
 ## Table of Contents
 
@@ -19,27 +19,27 @@ A comprehensive multi-modal machine learning framework for time series classific
 
 ## Overview
 
-HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:
+HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:HMSPAR is a state-of-the-art multi-modal deep learning framework designed for retail analytics and time series classification. The model integrates multiple data modalities including:
 
-- **Time Series Data**: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends
-- **Text Embeddings**: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions
-- **Image Data**: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series
-- **Static Features**: Demographic and categorical information (optional): Demographic and categorical information (optional)
+- **Time Series Data**: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends: Sequential transaction patterns, sales trends
+- **Text Embeddings**: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions: Product descriptions, customer behavior descriptions
+- **Image Data**: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series: ISA-GAF (Gramian Angular Field) representations of time series
+- **Static Features**: Demographic and categorical information (optional): Demographic and categorical information (optional): Demographic and categorical information (optional): Demographic and categorical information (optional)
 
-The framework employs advanced techniques including:The framework employs advanced techniques including:
-- Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding
-- Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion
-- ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations
-- Sparse parameter sharing across modalities Sparse parameter sharing across modalities
+The framework employs advanced techniques including:The framework employs advanced techniques including:The framework employs advanced techniques including:The framework employs advanced techniques including:
+- Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding Taylor-KAN (Kolmogorov-Arnold Network) layers for time series encoding
+- Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion Progressive Layer Enhancement (PLE) for multi-modal fusion
+- ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations ResNet-based image encoding for visual time series representations
+- Sparse parameter sharing across modalities Sparse parameter sharing across modalities Sparse parameter sharing across modalities Sparse parameter sharing across modalities
 
 ## Features
 
 - **Multi-modal Architecture**: Integrates time series, text, image, and static data: Integrates time series, text, image, and static data
-- **Advanced Time Series Encoding**: Taylor-KAN layers for temporal pattern recognition: Taylor-KAN layers for temporal pattern recognition
-- **Multi-modal Fusion**: PLE-based fusion with load balancing and expert routing: PLE-based fusion with load balancing and expert routing
-- **Comprehensive Baselines**: 12+ baseline models for comparison: 12+ baseline models for comparison
-- **Multiple Dataset Support**: Merchant, Retail, CDNOW, Instacart, TaFeng, Sales Weekly: Merchant, Retail, CDNOW, Instacart, TaFeng, Sales Weekly
-- **Flexible Task Support**: Classification, prediction, and risk assessment tasks: Classification, prediction, and risk assessment tasks
+- **Advanced Time Series Encoding**: Taylor-KAN layers for temporal pattern recognition
+- **Multi-modal Fusion**: PLE-based fusion with load balancing and expert routing
+- **Comprehensive Baselines**: 12+ baseline models for comparison: 12+ baseline models for comparison: 12+ baseline models for comparison: 12+ baseline models for comparison
+- **Multiple Dataset Support**: Merchant, Retail, CDNOW, Instacart, TaFeng, Sales Weekly
+- **Flexible Task Support**: Classification, prediction, and risk assessment tasks
 
 ## Requirements
 
@@ -364,4 +364,4 @@ Performance varies by dataset complexity and task difficulty. Baseline models pr
 
 ---
 
-This is an anonymous research implementation. All datasets are simulated and generated using the provided data generation scripts.
+
