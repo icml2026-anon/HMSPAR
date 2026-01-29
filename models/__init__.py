@@ -1,0 +1,2 @@
+"""Model architectures for HMSPAR"""
+
