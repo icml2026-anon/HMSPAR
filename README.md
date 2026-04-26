@@ -22,13 +22,14 @@ Raw Sequence x
     └──► Text Descriptor ──► Frozen SBERT ──► Linear Proj  ──► h_text
                                                       │
                                           ┌───────────┘
+
                                           ▼
                               DSMF  (PLE-style MoE, Top-K sparse gating)
                                           │
                                           ▼
                               Fusion MLP ──► Prediction Head ──► ŷ
 ```
-
+[HMSPAR.pdf](https://github.com/user-attachments/files/27105236/HMSPAR.pdf)
 | Module | Role | Complexity |
 |--------|------|-----------|
 | **ISA-GAF** | Dual-channel image: Trend (interpolated GASF) + Sparsity (bipolar mask GASF) | O(T²) |
