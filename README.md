@@ -180,6 +180,4 @@ Sparse Sequence Classification · Homologous Multimodal Fusion · Sparsity-aware
 
 ---
 
-## License
 
-[MIT License](LICENSE)
