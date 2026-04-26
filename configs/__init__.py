@@ -1,2 +1,0 @@
-"""Configuration settings for HMSPAR"""
-
