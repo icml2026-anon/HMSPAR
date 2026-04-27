@@ -1,8 +1,5 @@
 # HMSPAR: Homologous Multimodal Fusion with Parallel Sparsity-Dynamics Awareness for Sparse Sequence Classification
 
-> Accepted at **ACM Multimedia 2026** (MM '26)
-
-**Anonymous repository:** https://anonymous.4open.science/r/HMSPAR-7A5C
 
 ---
 
